@@ -5,6 +5,6 @@ describe("Int tests", () =>{
         expect(reverse(32243)).toEqual(34223);
     })
     it("failing Int", () =>{
-        expect(reverse(32243)).toEqual(32243);
+        expect(reverse(32243)).not.toEqual(32243);
     })
 })
